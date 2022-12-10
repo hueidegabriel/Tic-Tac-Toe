@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Tic Toc Toe (Jogo da Velha)</title>
+</head>
+<body>
+  <h1>Tic Toc Toe (Jogo da Velha)</h1>
+  <p>-Digite os nomes do jogadores para começar a jogar!</p>
+  <hr>
+  
+  <label for="player1">X - </label>
+  <input type="text" name="player1" id="player1" placeholder="Nome jogador 1">
+
+  <label for="player2">O - </label>
+  <input type="text" name="player2" id="player2" placeholder="Nome jogador 2">
+
+  <button type="button" id="start">Começar</button>
+
+  <h2>Vez de: <span id="turnPlayer"></span></h2>
+
+  <section id="gameBoard">
+    <span data-region="0.0" class="cursor-pointer"></span>
+    <span data-region="0.1" class="cursor-pointer"></span>
+    <span data-region="0.2" class="cursor-pointer"></span>
+    <span data-region="1.0" class="cursor-pointer"></span>
+    <span data-region="1.1" class="cursor-pointer"></span>
+    <span data-region="1.2" class="cursor-pointer"></span>
+    <span data-region="2.0" class="cursor-pointer"></span>
+    <span data-region="2.1" class="cursor-pointer"></span>
+    <span data-region="2.2" class="cursor-pointer"></span>
+  </section>
+
+</body>
+</html>
